@@ -1,5 +1,7 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, send_from_directory, request, url_for
 import pandas as pd
+import os
+
 
 app = Flask(__name__)
 
@@ -58,7 +60,7 @@ def index():
     peliculas = [{"Name": pelicula['Name'], "Popularity": pelicula['Popularity']} for pelicula in resultados]
 
     # Renderizar el template con los resultados
-    return render_template('index.html', peliculas=peliculas, enumerate = enumerate)
+    return render_template('page/index.html', peliculas=peliculas, enumerate = enumerate)
 
 if __name__ == '__main__':
     app.run(debug=True)
