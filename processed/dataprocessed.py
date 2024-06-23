@@ -2,7 +2,7 @@ import pandas as pd
 from graphviz import Digraph
 
 # Leer el archivo CSV con información de películas
-ruta_archivo = "C:/Users/51924/Desktop/ComplejidadRepo/Algorithmic-complexity/data/10movies.csv"
+ruta_archivo = "C:/Users/LCDP/Desktop/CICLO-2024-01/Algorithmic-complexity/data/10movies.csv"
 data = pd.read_csv(ruta_archivo)
 
 # Crear un nuevo grafo dirigido

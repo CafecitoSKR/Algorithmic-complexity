@@ -1,32 +1,32 @@
-,Id,Name,Original_name,Popularity,First_air_date,Vote_average,Vote_count
-0,94954,Hazbin Hotel,Hazbin Hotel,277.966,18-01-2024,9.037,738
-1,1396,Breaking Bad,Breaking Bad,492.705,20-01-2008,8.906,13285
-2,126308,ShÅgun,ShÅgun,1403.663,27-02-2024,8.807,279
-3,94605,Arcane,Arcane,89.432,06-11-2021,8.749,3668
-4,37854,One Piece,ãƒ¯ãƒ³ãƒ”ãƒ¼ã‚¹,164.547,20-10-1999,8.7,4368
-5,246,Avatar: The Last Airbender,Avatar: The Last Airbender,150.062,21-02-2005,8.719,3822
-6,60625,Rick and Morty,Rick and Morty,753.602,02-12-2013,8.702,9242
-7,31911,Fullmetal Alchemist: Brotherhood,é‹¼ã®éŒ¬é‡‘è¡“å¸« FULLMETAL ALCHEMIST,166.171,05-04-2009,8.698,1893
-8,70785,Anne with an E,Anne with an E,114.302,19-03-2017,8.689,4518
-9,82728,Bluey,Bluey,279.106,01-10-2018,8.675,437
-10,85937,Demon Slayer: Kimetsu no Yaiba,é¬¼æ»…ã®åˆƒ,83.95,06-04-2019,8.674,5940
-11,60059,Better Call Saul,Better Call Saul,275.933,08-02-2015,8.665,4749
-12,92685,The Owl House,The Owl House,158.317,10-01-2020,8.664,1484
-13,42705,Fighting Spirit,ã¯ã˜ã‚ã®ä¸€æ­©,234.051,03-10-2000,8.662,949
-14,87108,Chernobyl,Chernobyl,93.104,06-05-2019,8.66,5799
-15,1429,Attack on Titan,é€²æ’ƒã®å·¨äºº,142.252,07-04-2013,8.66,5965
-16,95557,Invincible,Invincible,527.66,25-03-2021,8.7,4100
-17,67915,Goblin,ì“¸ì“¸í•˜ê³  ì°¬ëž€í•˜ç¥ž-ë„ê¹¨ë¹„,91.417,02-12-2016,8.654,2608
-18,65930,My Hero Academia,åƒ•ã®ãƒ’ãƒ¼ãƒ­ãƒ¼ã‚¢ã‚«ãƒ‡ãƒŸã‚¢,52.318,03-04-2016,8.651,4663
-19,85077,The Chosen,The Chosen,206.19,21-04-2019,8.64,242
-20,13916,Death Note,DEATH NOTE,142.683,04-10-2006,8.639,3863
-21,42573,Slam Dunk,ã‚¹ãƒ©ãƒ ãƒ€ãƒ³ã‚¯,109.52,16-10-1993,8.637,849
-22,1398,The Sopranos,The Sopranos,475.228,10-01-1999,8.637,2487
-23,72637,Once,O11CE,296.815,19-06-2017,8.636,1398
-24,135157,Alchemy of Souls,í™˜í˜¼,137.866,18-06-2022,8.637,475
-25,31132,Regular Show,Regular Show,298.247,06-09-2010,8.6,1860
-26,62741,Kamisama Kiss,ç¥žæ§˜ã¯ã˜ã‚ã¾ã—ãŸ,57.748,02-10-2012,8.633,833
-27,100,I Am Not an Animal,I Am Not an Animal,18.178,10-05-2004,8.63,777
-28,62914,MerlÃ­,MerlÃ­,55.821,14-09-2015,8.628,1046
-29,46298,Hunter x Hunter,HUNTERÃ—HUNTER,346.391,02-10-2011,8.628,1592
-30,124834,Heartstopper,Heartstopper,102.618,22-04-2022,8.6,1187
+Id,Name,Original_name,Popularity,First_air_date,Vote_average,Vote_count
+0,Hazbin Hotel,Hazbin Hotel,277.966,18-01-2024,9.037,738
+1,Breaking Bad,Breaking Bad,492.705,20-01-2008,8.906,13285
+2,Shōgun,Shōgun,1403.663,27-02-2024,8.807,279
+3,Arcane,Arcane,89.432,06-11-2021,8.749,3668
+4,One Piece,ワンピース,164.547,20-10-1999,8.7,4368
+5,Avatar: The Last Airbender,Avatar: The Last Airbender,150.062,21-02-2005,8.719,3822
+6,Rick and Morty,Rick and Morty,753.602,02-12-2013,8.702,9242
+7,Fullmetal Alchemist: Brotherhood,鋼の錬金術師 FULLMETAL ALCHEMIST,166.171,05-04-2009,8.698,1893
+8,Anne with an E,Anne with an E,114.302,19-03-2017,8.689,4518
+9,Bluey,Bluey,279.106,01-10-2018,8.675,437
+10,Demon Slayer: Kimetsu no Yaiba,鬼滅の刃,83.95,06-04-2019,8.674,5940
+11,Better Call Saul,Better Call Saul,275.933,08-02-2015,8.665,4749
+12,The Owl House,The Owl House,158.317,10-01-2020,8.664,1484
+13,Fighting Spirit,はじめの一歩,234.051,03-10-2000,8.662,949
+14,Chernobyl,Chernobyl,93.104,06-05-2019,8.66,5799
+15,Attack on Titan,進撃の巨人,142.252,07-04-2013,8.66,5965
+16,Invincible,Invincible,527.66,25-03-2021,8.7,4100
+17,Goblin,도깨비,91.417,02-12-2016,8.654,2608
+18,My Hero Academia,僕のヒーローアカデミア,52.318,03-04-2016,8.651,4663
+19,The Chosen,The Chosen,206.19,21-04-2019,8.64,242
+20,Death Note,DEATH NOTE,142.683,04-10-2006,8.639,3863
+21,Slam Dunk,スラムダンク,109.52,16-10-1993,8.637,849
+22,The Sopranos,The Sopranos,475.228,10-01-1999,8.637,2487
+23,Once,O11CE,296.815,19-06-2017,8.636,1398
+24,Alchemy of Souls,음양,137.866,18-06-2022,8.637,475
+25,Regular Show,Regular Show,298.247,06-09-2010,8.6,1860
+26,Kamisama Kiss,神様はじめました,57.748,02-10-2012,8.633,833
+27,I Am Not an Animal,I Am Not an Animal,18.178,10-05-2004,8.63,777
+28,Merlí,Merlí,55.821,14-09-2015,8.628,1046
+29,Hunter x Hunter,HUNTER×HUNTER,346.391,02-10-2011,8.628,1592
+30,Heartstopper,Heartstopper,102.618,22-04-2022,8.6,1187

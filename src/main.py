@@ -1,7 +1,10 @@
+from flask import Flask, render_template, request
 import pandas as pd
 
+app = Flask(__name__)
+
 # Leer el archivo CSV con información de películas
-ruta_archivo = "C:/Users/51924/Desktop/ComplejidadRepo/Algorithmic-complexity/data/movies.csv"
+ruta_archivo = "C:/Users/LCDP/Desktop/CICLO-2024-01/Algorithmic-complexity/data/10movies.csv"
 data = pd.read_csv(ruta_archivo)
 
 # Definir una función de heurística para estimar la popularidad de una película en relación con otra
@@ -9,7 +12,7 @@ def heuristica_popularidad(pelicula_referencia, pelicula_actual):
     return abs(pelicula_referencia['Popularity'] - pelicula_actual['Popularity'])
 
 # Implementar el algoritmo de búsqueda A*
-def buscar_películas_populares(pelicula_referencia, data, k=5):
+def buscar_películas_populares(pelicula_referencia, data, k=10):
     # Inicializar una lista de películas visitadas y una cola de prioridad para almacenar las películas a explorar
     visitados = set()
     cola_prioridad = []
@@ -43,12 +46,19 @@ def buscar_películas_populares(pelicula_referencia, data, k=5):
             # Ordenar la cola de prioridad por la heurística
             cola_prioridad.sort(key=lambda x: x[0])
 
-# Obtener una película de referencia (por ejemplo, la más popular)
-pelicula_referencia = data.loc[data['Popularity'].idxmax()]
+@app.route('/')
+def index():
+    # Obtener una película de referencia (por ejemplo, la más popular)
+    pelicula_referencia = data.loc[data['Popularity'].idxmax()]
 
-# Buscar las 5 películas más populares en relación con la película de referencia
-resultados = list(buscar_películas_populares(pelicula_referencia, data))
+    # Buscar las 5 películas más populares en relación con la película de referencia
+    resultados = list(buscar_películas_populares(pelicula_referencia, data))
 
-# Imprimir los resultados
-for i, pelicula in enumerate(resultados, 1):
-    print(f"{i}. {pelicula['Name']} (Popularidad: {pelicula['Popularity']})")
+    # Preparar los datos para pasar al template
+    peliculas = [{"Name": pelicula['Name'], "Popularity": pelicula['Popularity']} for pelicula in resultados]
+
+    # Renderizar el template con los resultados
+    return render_template('index.html', peliculas=peliculas, enumerate = enumerate)
+
+if __name__ == '__main__':
+    app.run(debug=True)
