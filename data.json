@@ -1,0 +1,252 @@
+{
+  "d": [
+    {
+      "Name": "Hazbin Hotel",
+      "Original_name": "Hazbin Hotel",
+      "Popularity": 277.966,
+      "First_air_date": "18-01-2024",
+      "Vote_average": 9.037,
+      "Vote_count": 738
+    },
+    {
+      "Name": "Breaking Bad",
+      "Original_name": "Breaking Bad",
+      "Popularity": 492.705,
+      "First_air_date": "20-01-2008",
+      "Vote_average": 8.906,
+      "Vote_count": 13285
+    },
+    {
+      "Name": "Shōgun",
+      "Original_name": "Shōgun",
+      "Popularity": 1403.663,
+      "First_air_date": "27-02-2024",
+      "Vote_average": 8.807,
+      "Vote_count": 279
+    },
+    {
+      "Name": "Arcane",
+      "Original_name": "Arcane",
+      "Popularity": 89.432,
+      "First_air_date": "06-11-2021",
+      "Vote_average": 8.749,
+      "Vote_count": 3668
+    },
+    {
+      "Name": "One Piece",
+      "Original_name": "ワンピース",
+      "Popularity": 164.547,
+      "First_air_date": "20-10-1999",
+      "Vote_average": 8.7,
+      "Vote_count": 4368
+    },
+    {
+      "Name": "Avatar: The Last Airbender",
+      "Original_name": "Avatar: The Last Airbender",
+      "Popularity": 150.062,
+      "First_air_date": "21-02-2005",
+      "Vote_average": 8.719,
+      "Vote_count": 3822
+    },
+    {
+      "Name": "Rick and Morty",
+      "Original_name": "Rick and Morty",
+      "Popularity": 753.602,
+      "First_air_date": "02-12-2013",
+      "Vote_average": 8.702,
+      "Vote_count": 9242
+    },
+    {
+      "Name": "Fullmetal Alchemist: Brotherhood",
+      "Original_name": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+      "Popularity": 166.171,
+      "First_air_date": "05-04-2009",
+      "Vote_average": 8.698,
+      "Vote_count": 1893
+    },
+    {
+      "Name": "Anne with an E",
+      "Original_name": "Anne with an E",
+      "Popularity": 114.302,
+      "First_air_date": "19-03-2017",
+      "Vote_average": 8.689,
+      "Vote_count": 4518
+    },
+    {
+      "Name": "Bluey",
+      "Original_name": "Bluey",
+      "Popularity": 279.106,
+      "First_air_date": "01-10-2018",
+      "Vote_average": 8.675,
+      "Vote_count": 437
+    },
+    {
+      "Name": "Demon Slayer: Kimetsu no Yaiba",
+      "Original_name": "鬼滅の刃",
+      "Popularity": 83.95,
+      "First_air_date": "06-04-2019",
+      "Vote_average": 8.674,
+      "Vote_count": 5940
+    },
+    {
+      "Name": "Better Call Saul",
+      "Original_name": "Better Call Saul",
+      "Popularity": 275.933,
+      "First_air_date": "08-02-2015",
+      "Vote_average": 8.665,
+      "Vote_count": 4749
+    },
+    {
+      "Name": "The Owl House",
+      "Original_name": "The Owl House",
+      "Popularity": 158.317,
+      "First_air_date": "10-01-2020",
+      "Vote_average": 8.664,
+      "Vote_count": 1484
+    },
+    {
+      "Name": "Fighting Spirit",
+      "Original_name": "はじめの一歩",
+      "Popularity": 234.051,
+      "First_air_date": "03-10-2000",
+      "Vote_average": 8.662,
+      "Vote_count": 949
+    },
+    {
+      "Name": "Chernobyl",
+      "Original_name": "Chernobyl",
+      "Popularity": 93.104,
+      "First_air_date": "06-05-2019",
+      "Vote_average": 8.66,
+      "Vote_count": 5799
+    },
+    {
+      "Name": "Attack on Titan",
+      "Original_name": "進撃の巨人",
+      "Popularity": 142.252,
+      "First_air_date": "07-04-2013",
+      "Vote_average": 8.66,
+      "Vote_count": 5965
+    },
+    {
+      "Name": "Invincible",
+      "Original_name": "Invincible",
+      "Popularity": 527.66,
+      "First_air_date": "25-03-2021",
+      "Vote_average": 8.7,
+      "Vote_count": 4100
+    },
+    {
+      "Name": "Goblin",
+      "Original_name": "도깨비",
+      "Popularity": 91.417,
+      "First_air_date": "02-12-2016",
+      "Vote_average": 8.654,
+      "Vote_count": 2608
+    },
+    {
+      "Name": "My Hero Academia",
+      "Original_name": "僕のヒーローアカデミア",
+      "Popularity": 52.318,
+      "First_air_date": "03-04-2016",
+      "Vote_average": 8.651,
+      "Vote_count": 4663
+    },
+    {
+      "Name": "The Chosen",
+      "Original_name": "The Chosen",
+      "Popularity": 206.19,
+      "First_air_date": "21-04-2019",
+      "Vote_average": 8.64,
+      "Vote_count": 242
+    },
+    {
+      "Name": "Death Note",
+      "Original_name": "DEATH NOTE",
+      "Popularity": 142.683,
+      "First_air_date": "04-10-2006",
+      "Vote_average": 8.639,
+      "Vote_count": 3863
+    },
+    {
+      "Name": "Slam Dunk",
+      "Original_name": "スラムダンク",
+      "Popularity": 109.52,
+      "First_air_date": "16-10-1993",
+      "Vote_average": 8.637,
+      "Vote_count": 849
+    },
+    {
+      "Name": "The Sopranos",
+      "Original_name": "The Sopranos",
+      "Popularity": 475.228,
+      "First_air_date": "10-01-1999",
+      "Vote_average": 8.637,
+      "Vote_count": 2487
+    },
+    {
+      "Name": "Once",
+      "Original_name": "O11CE",
+      "Popularity": 296.815,
+      "First_air_date": "19-06-2017",
+      "Vote_average": 8.636,
+      "Vote_count": 1398
+    },
+    {
+      "Name": "Alchemy of Souls",
+      "Original_name": "음양",
+      "Popularity": 137.866,
+      "First_air_date": "18-06-2022",
+      "Vote_average": 8.637,
+      "Vote_count": 475
+    },
+    {
+      "Name": "Regular Show",
+      "Original_name": "Regular Show",
+      "Popularity": 298.247,
+      "First_air_date": "06-09-2010",
+      "Vote_average": 8.6,
+      "Vote_count": 1860
+    },
+    {
+      "Name": "Kamisama Kiss",
+      "Original_name": "神様はじめました",
+      "Popularity": 57.748,
+      "First_air_date": "02-10-2012",
+      "Vote_average": 8.633,
+      "Vote_count": 833
+    },
+    {
+      "Name": "I Am Not an Animal",
+      "Original_name": "I Am Not an Animal",
+      "Popularity": 18.178,
+      "First_air_date": "10-05-2004",
+      "Vote_average": 8.63,
+      "Vote_count": 777
+    },
+    {
+      "Name": "Merlí",
+      "Original_name": "Merlí",
+      "Popularity": 55.821,
+      "First_air_date": "14-09-2015",
+      "Vote_average": 8.628,
+      "Vote_count": 1046
+    },
+    {
+      "Name": "Hunter x Hunter",
+      "Original_name": "HUNTER×HUNTER",
+      "Popularity": 346.391,
+      "First_air_date": "02-10-2011",
+      "Vote_average": 8.628,
+      "Vote_count": 1592
+    },
+    {
+      "Name": "Heartstopper",
+      "Original_name": "Heartstopper",
+      "Popularity": 102.618,
+      "First_air_date": "22-04-2022",
+      "Vote_average": 8.6,
+      "Vote_count": 1187
+    }
+  ]
+}
