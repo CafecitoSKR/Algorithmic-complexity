@@ -1,32 +1,260 @@
-Id,Name,Original_name,Popularity,First_air_date,Vote_average,Vote_count
-0,Hazbin Hotel,Hazbin Hotel,277.966,18-01-2024,9.037,738
-1,Breaking Bad,Breaking Bad,492.705,20-01-2008,8.906,13285
-2,Shōgun,Shōgun,1403.663,27-02-2024,8.807,279
-3,Arcane,Arcane,89.432,06-11-2021,8.749,3668
-4,One Piece,ワンピース,164.547,20-10-1999,8.7,4368
-5,Avatar: The Last Airbender,Avatar: The Last Airbender,150.062,21-02-2005,8.719,3822
-6,Rick and Morty,Rick and Morty,753.602,02-12-2013,8.702,9242
-7,Fullmetal Alchemist: Brotherhood,鋼の錬金術師 FULLMETAL ALCHEMIST,166.171,05-04-2009,8.698,1893
-8,Anne with an E,Anne with an E,114.302,19-03-2017,8.689,4518
-9,Bluey,Bluey,279.106,01-10-2018,8.675,437
-10,Demon Slayer: Kimetsu no Yaiba,鬼滅の刃,83.95,06-04-2019,8.674,5940
-11,Better Call Saul,Better Call Saul,275.933,08-02-2015,8.665,4749
-12,The Owl House,The Owl House,158.317,10-01-2020,8.664,1484
-13,Fighting Spirit,はじめの一歩,234.051,03-10-2000,8.662,949
-14,Chernobyl,Chernobyl,93.104,06-05-2019,8.66,5799
-15,Attack on Titan,進撃の巨人,142.252,07-04-2013,8.66,5965
-16,Invincible,Invincible,527.66,25-03-2021,8.7,4100
-17,Goblin,도깨비,91.417,02-12-2016,8.654,2608
-18,My Hero Academia,僕のヒーローアカデミア,52.318,03-04-2016,8.651,4663
-19,The Chosen,The Chosen,206.19,21-04-2019,8.64,242
-20,Death Note,DEATH NOTE,142.683,04-10-2006,8.639,3863
-21,Slam Dunk,スラムダンク,109.52,16-10-1993,8.637,849
-22,The Sopranos,The Sopranos,475.228,10-01-1999,8.637,2487
-23,Once,O11CE,296.815,19-06-2017,8.636,1398
-24,Alchemy of Souls,음양,137.866,18-06-2022,8.637,475
-25,Regular Show,Regular Show,298.247,06-09-2010,8.6,1860
-26,Kamisama Kiss,神様はじめました,57.748,02-10-2012,8.633,833
-27,I Am Not an Animal,I Am Not an Animal,18.178,10-05-2004,8.63,777
-28,Merlí,Merlí,55.821,14-09-2015,8.628,1046
-29,Hunter x Hunter,HUNTER×HUNTER,346.391,02-10-2011,8.628,1592
-30,Heartstopper,Heartstopper,102.618,22-04-2022,8.6,1187
+Id,Name,Original_name,Genre,Popularity,First_air_date,Vote_average,Vote_count
+0,Rick and Morty,Rick and Morty,Animación / Comedia,753.602,02-12-2013,8.702,9242
+1,Shōgun,Shōgun,Histórica / Drama,1403.663,27-02-2024,8.807,279
+2,The Sopranos,The Sopranos,Drama / Crimen,475.228,10-01-1999,8.637,2487
+3,Breaking Bad,Breaking Bad,Drama / Crimen,492.705,20-01-2008,8.906,13285
+4,Invincible,Invincible,Animación / Acción,527.66,25-03-2021,8.7,4100
+5,Hunter x Hunter,HUNTER×HUNTER,Animación / Acción,346.391,02-10-2011,8.628,1592
+6,Regular Show,Regular Show,Animación / Comedia,298.247,06-09-2010,8.6,1860
+7,Once,O11CE,Animación / Familiar,296.815,19-06-2017,8.636,1398
+8,Bluey,Bluey,Animación / Familiar,279.106,01-10-2018,8.675,437
+9,Hazbin Hotel,Hazbin Hotel,Animación / Comedia,277.966,18-01-2024,9.037,738
+10,Better Call Saul,Better Call Saul,Drama / Crimen,275.933,08-02-2015,8.665,4749
+11,Heartstopper,Heartstopper,Drama / Romance,102.618,22-04-2022,8.6,1187
+12,Anne with an E,Anne with an E,Drama / Romance,114.302,19-03-2017,8.689,4518
+13,Fighting Spirit,はじめの一歩,Drama / Deportes,234.051,03-10-2000,8.662,949
+14,The Chosen,The Chosen,Drama / Histórica,206.19,21-04-2019,8.64,242
+15,Fullmetal Alchemist: Brotherhood,鋼の錬金術師 FULLMETAL ALCHEMIST,Animación / Aventura,166.171,05-04-2009,8.698,1893
+16,One Piece,ワンピース,Animación / Aventura,164.547,20-10-1999,8.7,4368
+17,The Owl House,The Owl House,Animación / Aventura,158.317,10-01-2020,8.664,1484
+18,Avatar: The Last Airbender,Avatar: The Last Airbender,Animación / Aventura,150.062,21-02-2005,8.719,3822
+19,Alchemy of Souls,음양,Drama / Fantasía,137.866,18-06-2022,8.637,475
+20,Attack on Titan,進撃の巨人,Animación / Acción,142.252,07-04-2013,8.66,5965
+21,Death Note,DEATH NOTE,Drama / Thriller,142.683,04-10-2006,8.639,3863
+22,Demon Slayer: Kimetsu no Yaiba,鬼滅の刃,Animación / Acción,83.95,06-04-2019,8.674,5940
+23,Chernobyl,Chernobyl,Drama / Histórica,93.104,06-05-2019,8.66,5799
+24,Arcane,Arcane,Animación / Acción,89.432,06-11-2021,8.749,3668
+25,Goblin,도깨비,Drama / Fantasía,91.417,02-12-2016,8.654,2608
+26,My Hero Academia,僕のヒーローアカデミア,Animación / Acción,52.318,03-04-2016,8.651,4663
+27,Merlí,Merlí,Drama / Comedia,55.821,14-09-2015,8.628,1046
+28,Kamisama Kiss,神様はじめました,Animación / Romance,57.748,02-10-2012,8.633,833
+29,Slam Dunk,スラムダンク,Drama / Deportes,109.52,16-10-1993,8.637,849
+30,I Am Not an Animal,I Am Not an Animal,Animación / Comedia,18.178,10-05-2004,8.63,777
+31,Stranger Things,Stranger Things,Drama / Fantasía,1200.5,15-07-2016,8.7,9732
+32,The Mandalorian,The Mandalorian,Drama / Acción,1100.3,12-11-2019,8.8,8617
+33,Game of Thrones,Game of Thrones,Drama / Fantasía,2500.4,17-04-2011,8.5,16784
+34,Black Mirror,Black Mirror,Drama / Thriller,900.2,04-12-2011,8.3,6198
+35,The Witcher,The Witcher,Drama / Fantasía,800.1,20-12-2019,8.2,7389
+36,Westworld,Westworld,Drama / Ciencia Ficción,750.5,02-10-2016,8.4,4533
+37,The Boys,The Boys,Drama / Acción,700.9,26-07-2019,8.7,7182
+38,Peaky Blinders,Peaky Blinders,Drama / Crimen,650.7,12-09-2013,8.8,5345
+39,Money Heist,La Casa de Papel,Drama / Crimen,1200.9,02-05-2017,8.6,10467
+40,The Crown,The Crown,Drama / Histórica,800.6,04-11-2016,8.7,6741
+41,The Office,The Office,Comedia,950.3,24-03-2005,8.9,8529
+42,Fargo,Fargo,Drama / Crimen,600.4,15-04-2014,8.5,3184
+43,The Marvelous Mrs. Maisel,The Marvelous Mrs. Maisel,Drama / Comedia,700.8,17-03-2017,8.7,2718
+44,True Detective,True Detective,Drama / Crimen,800.2,12-01-2014,8.9,4512
+45,The Handmaid's Tale,The Handmaid's Tale,Drama / Fantasía,1100.1,26-04-2017,8.3,6327
+46,Ozark,Ozark,Drama / Crimen,900.7,21-07-2017,8.4,5731
+47,Stranger Things,Stranger Things,Drama / Fantasía,1400.3,15-07-2016,8.7,9476
+48,The Umbrella Academy,The Umbrella Academy,Drama / Acción,890.6,15-02-2019,8.4,6845
+49,Lucifer,Lucifer,Drama / Fantasía,780.2,25-01-2016,8.2,9281
+50,Bojack Horseman,Bojack Horseman,Animación / Comedia,800.3,22-08-2014,8.6,7394
+51,The Expanse,The Expanse,Drama / Ciencia Ficción,610.4,14-12-2015,8.5,4917
+52,You,You,Drama / Thriller,760.7,09-09-2018,8.0,6482
+53,Schitt's Creek,Schitt's Creek,Comedia,500.1,13-01-2015,8.5,3901
+54,Killing Eve,Killing Eve,Drama / Thriller,680.3,08-04-2018,8.3,7129
+55,The Haunting of Hill House,The Haunting of Hill House,Drama / Terror,590.9,12-10-2018,8.6,6513
+56,The Good Place,The Good Place,Comedia / Fantasía,540.8,19-09-2016,8.2,4326
+57,Big Mouth,Big Mouth,Animación / Comedia,520.5,29-09-2017,8.0,2958
+58,Mr. Robot,Mr. Robot,Drama / Thriller,710.1,24-06-2015,8.5,8834
+59,The Flash,The Flash,Drama / Acción,830.6,07-10-2014,7.8,9521
+60,Vikings,Vikings,Drama / Acción,1200.7,03-03-2013,8.6,10732
+61,The Walking Dead,The Walking Dead,Drama / Terror,950.4,31-10-2010,8.1,9023
+62,Brooklyn Nine-Nine,Brooklyn Nine-Nine,Comedia,720.9,17-09-2013,8.4,6712
+63,Sex Education,Sex Education,Drama / Comedia,880.1,11-01-2019,8.3,5869
+64,The 100,The 100,Drama / Ciencia Ficción,680.5,19-03-2014,7.7,5284
+65,Riverdale,Riverdale,Drama / Misterio,700.7,26-01-2017,6.9,4235
+66,Euphoria,Euphoria,Drama,900.8,16-06-2019,8.4,6473
+67,Mindhunter,Mindhunter,Drama / Crimen,760.2,13-10-2017,8.6,3578
+68,House of Cards,House of Cards,Drama / Política,720.4,01-02-2013,8.7,8192
+69,13 Reasons Why,13 Reasons Why,Drama / Misterio,680.1,31-03-2017,7.6,5654
+70,Orange Is the New Black,Orange Is the New Black,Drama / Comedia,850.9,11-07-2013,8.1,7735
+71,True Blood,True Blood,Drama / Fantasía,670.5,07-09-2008,7.9,4998
+72,Supernatural,Supernatural,Drama / Fantasía,1120.4,13-09-2005,8.4,10392
+73,Grey's Anatomy,Grey's Anatomy,Drama / Romance,930.8,27-03-2005,8.2,12987
+74,The X-Files,The X-Files,Drama / Ciencia Ficción,820.1,10-09-1993,8.6,8456
+75,Buffy the Vampire Slayer,Buffy the Vampire Slayer,Drama / Fantasía,780.7,10-03-1997,8.2,7265
+76,Lost,Lost,Drama / Misterio,1250.3,22-09-2004,8.3,10457
+77,Fringe,Fringe,Drama / Ciencia Ficción,710.5,09-09-2008,8.4,6734
+78,Arrow,Arrow,Drama / Acción,890.6,10-10-2012,7.5,8945
+79,Smallville,Smallville,Drama / Ciencia Ficción,760.4,16-10-2001,7.9,6123
+80,House,House,Drama / Misterio,980.7,16-11-2004,8.7,12345
+81,Sherlock,Sherlock,Drama / Misterio,950.1,25-07-2010,9.1,10987
+82,Doctor Who,Doctor Who,Drama / Ciencia Ficción,1200.2,23-11-1963,8.6,14890
+83,Prison Break,Prison Break,Drama / Acción,780.3,29-08-2005,8.3,9832
+84,How I Met Your Mother,How I Met Your Mother,Comedia,850.9,19-09-2005,8.4,11223
+85,Friends,Friends,Comedia,1500.1,22-09-1994,8.8,16432
+86,Seinfeld,Seinfeld,Comedia,980.4,05-07-1989,8.8,9356
+87,The Big Bang Theory,The Big Bang Theory,Comedia,1400.7,24-09-2007,8.1,13245
+88,Parks and Recreation,Parks and Recreation,Comedia,670.2,09-04-2009,8.6,7456
+89,The West Wing,The West Wing,Drama / Política,600.5,22-09-1999,8.8,5834
+90,The Simpsons,The Simpsons,Animación / Comedia,1800.3,17-12-1989,8.0,15678
+91,Family Guy,Family Guy,Animación / Comedia,970.8,31-01-1999,7.7,10432
+92,South Park,South Park,Animación / Comedia,890.1,13-08-1997,8.7,11234
+93,Bob's Burgers,Bob's Burgers,Animación / Comedia,620.3,09-01-2011,8.1,4823
+94,BoJack Horseman,BoJack Horseman,Animación / Comedia,800.3,22-08-2014,8.6,7394
+95,Rick and Morty,Rick and Morty,Animación / Comedia,850.7,02-12-2013,9.2,9242
+96,Futurama,Futurama,Animación / Comedia,900.6,28-03-1999,8.4,8573
+97,Adventure Time,Adventure Time,Animación / Aventura,770.4,05-04-2010,8.6,6234
+98,Regular Show,Regular Show,Animación / Comedia,710.5,06-09-2010,8.6,1860
+99,Teen Titans,Teen Titans,Animación / Acción,680.2,19-07-2003,8.2,5421
+100,Justice League,Justice League,Animación / Acción,790.9,17-11-2001,8.6,6945
+101,Batman: The Animated Series,Batman: The Animated Series,Animación / Acción,860.3,05-09-1992,9.0,8456
+102,Avatar: The Last Airbender,Avatar: The Last Airbender,Animación / Aventura,150.062,21-02-2005,8.719,3822
+103,The Legend of Korra,The Legend of Korra,Animación / Aventura,600.7,14-04-2012,8.4,3421
+104,Dragon Ball Z,ドラゴンボールZ,Animación / Acción,1400.8,26-04-1989,8.7,15432
+105,Naruto,Naruto,Animación / Acción,1300.1,03-10-2002,8.3,13456
+106,One Piece,ワンピース,Animación / Aventura,164.547,20-10-1999,8.7,4368
+107,Bleach,Bleach,Animación / Acción,1100.5,05-10-2004,8.2,9432
+108,Attack on Titan,進撃の巨人,Animación / Acción,142.252,07-04-2013,8.66,5965
+109,Fullmetal Alchemist: Brotherhood,鋼の錬金術師 FULLMETAL ALCHEMIST,Animación / Aventura,166.171,05-04-2009,8.698,1893
+110,Death Note,DEATH NOTE,Drama / Thriller,142.683,04-10-2006,8.639,3863
+111,My Hero Academia,僕のヒーローアカデミア,Animación / Acción,52.318,03-04-2016,8.651,4663
+112,Demon Slayer: Kimetsu no Yaiba,鬼滅の刃,Animación / Acción,83.95,06-04-2019,8.674,5940
+113,Tokyo Ghoul,東京喰種トーキョーグール,Animación / Acción,640.2,04-07-2014,8.0,5821
+114,Seven Deadly Sins,七つの大罪,Animación / Acción,680.6,05-10-2014,8.1,5612
+115,Hunter x Hunter,HUNTER×HUNTER,Animación / Acción,346.391,02-10-2011,8.628,1592
+116,Naruto Shippuden,Naruto Shippuden,Animación / Acción,1050.4,15-02-2007,8.5,12567
+117,Fairy Tail,フェアリーテイル,Animación / Acción,800.8,12-10-2009,8.1,7324
+118,Black Clover,ブラッククローバー,Animación / Acción,600.1,03-10-2017,8.0,4632
+119,One Punch Man,ワンパンマン,Animación / Acción,870.5,05-10-2015,8.5,8923
+120,Sword Art Online,ソードアート・オンライン,Animación / Acción,920.7,08-07-2012,7.7,6934
+121,Re:Zero,Re:ゼロから始める異世界生活,Animación / Fantasía,830.9,04-04-2016,8.4,5782
+122,Steins;Gate,Steins;Gate,Animación / Ciencia Ficción,760.4,06-04-2011,9.1,5467
+123,Code Geass,コードギアス 反逆のルルーシュ,Animación / Acción,890.2,06-10-2006,8.8,6789
+124,Neon Genesis Evangelion,新世紀エヴァンゲリオン,Animación / Ciencia Ficción,1300.5,04-10-1995,8.5,10543
+125,Cowboy Bebop,カウボーイビバップ,Animación / Ciencia Ficción,1150.3,03-04-1998,8.9,9675
+126,Samurai Champloo,サムライチャンプルー,Animación / Acción,780.1,20-05-2004,8.5,4123
+127,Ghost in the Shell: Stand Alone Complex,攻殻機動隊 STAND ALONE COMPLEX,Animación / Ciencia Ficción,820.6,01-10-2002,8.6,4321
+128,Coco,Coco,Animación / Aventura,632.405,27-10-2017,8.397,10822
+129,Frozen II,Frozen II,Animación / Aventura,612.993,22-11-2019,7.402,8276
+130,Toy Story 4,Toy Story 4,Animación / Comedia,568.37,21-06-2019,7.7,8625
+131,Shrek,Shrek,Animación / Comedia,540.29,22-05-2001,7.585,14586
+132,Despicable Me,Despicable Me,Animación / Comedia,539.685,09-07-2010,7.406,14481
+133,Kung Fu Panda,Kung Fu Panda,Animación / Acción,489.045,05-06-2008,7.281,9612
+134,How to Train Your Dragon,How to Train Your Dragon,Animación / Acción,478.178,26-03-2010,7.945,10046
+135,The Incredibles,The Incredibles,Animación / Acción,475.963,05-11-2004,7.851,16632
+136,Mulan,Mulan,Animación / Acción,443.363,19-06-1998,7.637,11035
+137,Zootopia,Zootopia,Animación / Familiar,412.451,04-03-2016,7.707,11986
+138,Finding Nemo,Finding Nemo,Animación / Familiar,409.522,30-05-2003,7.898,16595
+139,Tangled,Tangled,Animación / Familiar,398.732,24-11-2010,7.708,10176
+140,Cinderella,Cinderella,Histórica / Drama,397.818,15-03-1950,7.071,7195
+141,The Crown,The Crown,Histórica / Drama,390.681,04-11-2016,8.147,14692
+142,Downton Abbey,Downton Abbey,Histórica / Drama,376.217,26-09-2010,8.103,10589
+143,Bridge of Spies,Bridge of Spies,Drama / Crimen,368.794,16-10-2015,7.387,8771
+144,The Departed,The Departed,Drama / Crimen,358.327,05-10-2006,8.3,14662
+145,Pulp Fiction,Pulp Fiction,Drama / Crimen,347.621,14-09-1994,8.512,22298
+146,No Country for Old Men,No Country for Old Men,Drama / Crimen,343.993,08-11-2007,7.948,12069
+147,La La Land,La La Land,Drama / Romance,332.209,09-12-2016,7.945,17859
+148,The Notebook,The Notebook,Drama / Romance,320.318,25-06-2004,7.845,11432
+149,10 Things I Hate About You,10 Things I Hate About You,Drama / Romance,311.742,31-03-1999,7.525,10167
+150,Moneyball,Moneyball,Drama / Deportes,298.633,23-09-2011,7.269,7251
+151,Remember the Titans,Remember the Titans,Drama / Deportes,287.151,29-09-2000,7.972,5739
+152,A League of Their Own,A League of Their Own,Drama / Deportes,278.357,01-07-1992,7.454,6541
+153,Gladiator,Gladiator,Drama / Histórica,273.818,01-05-2000,8.117,17750
+154,Braveheart,Braveheart,Drama / Histórica,262.098,24-05-1995,8.205,12824
+155,The Crown,The Crown,Drama / Histórica,256.718,08-12-2019,8.445,19837
+156,Gone Girl,Gone Girl,Drama / Thriller,251.785,01-10-2014,7.965,17579
+157,Prisoners,Prisoners,Drama / Thriller,243.798,20-09-2013,8.084,12409
+158,Shutter Island,Shutter Island,Drama / Thriller,237.603,18-02-2010,8.266,19155
+159,Pan's Labyrinth,Pan's Labyrinth,Drama / Fantasía,232.891,27-05-2006,7.924,14208
+160,The Shape of Water,The Shape of Water,Drama / Fantasía,227.385,08-12-2017,7.486,12756
+161,Big Fish,Big Fish,Drama / Fantasía,218.693,09-01-2004,7.787,13842
+162,The Grand Budapest Hotel,The Grand Budapest Hotel,Drama / Comedia,212.505,28-02-2014,7.994,17567
+163,Little Miss Sunshine,Little Miss Sunshine,Drama / Comedia,206.305,26-07-2006,7.554,9923
+164,The Big Lebowski,The Big Lebowski,Drama / Comedia,198.125,06-03-1998,7.899,12477
+165,The Simpsons,The Simpsons,Animación / Comedia,193.902,17-12-1989,7.851,4717
+166,Family Guy,Family Guy,Animación / Comedia,183.761,31-01-1999,7.065,2789
+167,Bob's Burgers,Bob's Burgers,Animación / Comedia,172.138,09-01-2011,7.887,1298
+168,Adventure Time,Adventure Time,Animación / Aventura,165.938,05-04-2010,7.922,1824
+169,Gravity Falls,Gravity Falls,Animación / Aventura,159.531,15-06-2012,8.389,1786
+170,Steven Universe,Steven Universe,Animación / Aventura,154.002,04-11-2013,8.217,1953
+171,Over the Garden Wall,Over the Garden Wall,Animación / Aventura,143.505,03-11-2014,8.404,1173
+172,My Neighbor Totoro,となりのトトロ,Animación / Familiar,138.476,16-04-1988,8.176,5156
+173,Kiki's Delivery Service,魔女の宅急便,Animación / Familiar,137.892,29-07-1989,7.939,2948
+174,The Lion King,The Lion King,Animación / Familiar,134.234,15-06-1994,8.129,11625
+175,Beauty and the Beast,Beauty and the Beast,Animación / Familiar,130.785,22-11-1991,7.751,9143
+176,Your Name.,君の名は。,Animación / Romance,127.906,26-08-2016,8.664,6221
+177,A Silent Voice,聲の形,Animación / Romance,124.728,17-09-2016,8.301,2471
+178,Anohana: The Flower We Saw That Day,あの日見た花の名前を僕達はまだ知らない。,Animación / Romance,121.946,15-04-2011,8.34,1335
+179,Whisper of the Heart,耳をすませば,Animación / Romance,117.268,15-07-1995,7.955,1116
+180,Bleach,BLEACH,Animación / Acción,113.905,05-10-2004,8.091,2204
+181,Naruto,NARUTO -ナルト-,Animación / Acción,110.234,03-10-2002,8.146,3726
+182,Demon Slayer: Kimetsu no Yaiba,鬼滅の刃,Animación / Acción,107.821,06-04-2019,8.629,3293
+183,Attack on Titan,進撃の巨人,Animación / Acción,106.739,06-04-2013,8.448,9512
+184,The Legend of Korra,The Legend of Korra,Animación / Acción,103.472,14-04-2012,8.243,2104
+185,One Punch Man,ワンパンマン,Animación / Acción,101.895,04-10-2015,8.035,3347
+186,Avatar: The Last Airbender,Avatar: The Last Airbender,Animación / Aventura,99.612,21-02-2005,8.527,3716
+187,Adventure Time,Adventure Time,Animación / Aventura,97.374,05-04-2010,8.113,2786
+188,The Owl House,The Owl House,Animación / Aventura,95.816,10-01-2020,8.352,1281
+189,Tangled: The Series,Tangled: The Series,Animación / Aventura,93.572,24-03-2017,7.879,415
+190,Regular Show,Regular Show,Animación / Comedia,91.245,06-09-2010,8.432,994
+191,The Amazing World of Gumball,The Amazing World of Gumball,Animación / Comedia,89.172,02-05-2011,8.166,1054
+192,BoJack Horseman,BoJack Horseman,Animación / Comedia,86.891,22-08-2014,8.331,1571
+193,Futurama,Futurama,Animación / Comedia,84.517,28-03-1999,8.249,2194
+194,Beavis and Butt-Head,Beavis and Butt-Head,Animación / Comedia,82.311,08-03-1993,7.424,428
+195,Rick and Morty,Rick and Morty,Animación / Comedia,80.236,02-12-2013,9.029,5023
+196,Howl's Moving Castle,ハウルの動く城,Animación / Fantasía,78.107,20-11-2004,8.486,7513
+197,Spirited Away,千と千尋の神隠し,Animación / Fantasía,76.118,20-07-2001,8.568,12828
+198,Fantasia,Fantasia,Animación / Fantasía,74.209,13-11-1940,7.432,2251
+199,A Silent Voice,聲の形,Animación / Romance,72.354,17-09-2016,8.643,2165
+200,Your Name.,君の名は。,Animación / Romance,70.109,26-08-2016,8.521,3127
+201,Weathering with You,天気の子,Animación / Romance,68.204,19-07-2019,8.223,1699
+202,Whisper of the Heart,耳をすませば,Animación / Romance,66.389,15-07-1995,8.008,967
+203,My Neighbor Totoro,となりのトトロ,Animación / Familiar,64.615,16-04-1988,8.279,3244
+204,Finding Nemo,Finding Nemo,Animación / Familiar,62.862,30-05-2003,8.163,1477
+205,The Lion King,The Lion King,Animación / Familiar,61.129,15-06-1994,8.027,3365
+206,Toy Story,Toy Story,Animación / Familiar,59.415,22-11-1995,7.965,1338
+207,Aladdin,Aladdin,Animación / Familiar,57.728,25-11-1992,7.761,3987
+208,How to Train Your Dragon,How to Train Your Dragon,Animación / Acción,56.066,26-03-2010,8.101,2586
+209,The Incredibles,The Incredibles,Animación / Acción,54.423,05-11-2004,8.121,5643
+210,Kung Fu Panda,Kung Fu Panda,Animación / Acción,52.799,05-06-2008,7.963,2073
+211,Despicable Me,Despicable Me,Animación / Comedia,51.207,09-07-2010,7.421,1849
+212,Shrek,Shrek,Animación / Comedia,49.631,22-05-2001,7.461,2986
+213,Toy Story 4,Toy Story 4,Animación / Comedia,48.078,21-06-2019,7.654,2189
+214,Frozen II,Frozen II,Animación / Aventura,46.556,22-11-2019,7.423,1759
+215,Coco,Coco,Animación / Aventura,45.032,27-10-2017,8.085,1637
+216,The Iron Giant,The Iron Giant,Animación / Aventura,44.507,06-08-1999,7.967,3164
+217,Mulan,Mulan,Animación / Acción,43.012,19-06-1998,7.55,3256
+218,Beauty and the Beast,Beauty and the Beast,Animación / Familiar,41.596,22-11-1991,7.7,1027
+219,Aladdin,Aladdin,Animación / Familiar,40.205,25-11-1992,7.8,2931
+220,The Lion King,The Lion King,Animación / Familiar,38.831,15-06-1994,8.5,8580
+221,Fantasia,Fantasia,Animación / Fantasía,37.503,13-11-1940,7.5,1725
+222,The Nightmare Before Christmas,The Nightmare Before Christmas,Animación / Fantasía,36.219,13-10-1993,7.8,4366
+223,Toy Story,Toy Story,Animación / Familiar,34.937,22-11-1995,7.9,10911
+224,A Bug's Life,A Bug's Life,Animación / Aventura,33.675,25-11-1998,7.3,6855
+225,Tarzan,Tarzan,Animación / Aventura,32.521,18-06-1999,7.3,6547
+226,Anastasia,Anastasia,Animación / Aventura,31.379,21-11-1997,7.6,4018
+227,The Prince of Egypt,The Prince of Egypt,Animación / Aventura,30.268,16-12-1998,7.3,2360
+228,American Beauty,American Beauty,Drama / Romance,29.185,15-09-1999,7.9,13034
+229,The Sixth Sense,The Sixth Sense,Drama / Thriller,28.106,06-08-1999,7.9,9999
+230,Fight Club,Fight Club,Drama / Thriller,27.048,15-10-1999,8.4,19676
+231,The Green Mile,The Green Mile,Drama / Crimen,26.065,10-12-1999,8.5,13572
+232,Gladiator,Gladiator,Drama / Histórica,25.082,01-05-2000,8.5,18434
+233,American History X,American History X,Drama / Crimen,24.113,30-10-1998,8.4,12345
+234,The Truman Show,The Truman Show,Drama / Comedia,23.156,04-06-1998,7.9,10876
+235,The Matrix,The Matrix,Animación / Acción,22.207,30-03-1999,8.1,21845
+236,Good Will Hunting,Good Will Hunting,Drama / Romance,21.268,05-12-1997,7.9,9532
+237,Life Is Beautiful,La vita è bella,Drama / Comedia,20.325,20-12-1997,8.5,11076
+238,The Big Lebowski,The Big Lebowski,Drama / Comedia,19.407,06-03-1998,8.1,9876
+239,The Shawshank Redemption,The Shawshank Redemption,Drama / Crimen,18.502,23-09-1994,8.7,22765
+240,Saving Private Ryan,Saving Private Ryan,Drama / Histórica,17.615,24-07-1998,8.3,14678
+241,Schindler's List,Schindler's List,Drama / Histórica,16.728,15-12-1993,8.6,12345
+242,Forrest Gump,Forrest Gump,Drama / Romance,15.831,06-07-1994,8.8,25555
+243,Braveheart,Braveheart,Drama / Histórica,14.954,24-05-1995,8.7,18765
+244,The Usual Suspects,The Usual Suspects,Drama / Crimen,14.107,19-07-1995,8.5,12345
+245,Pulp Fiction,Pulp Fiction,Drama / Crimen,13.268,14-09-1994,8.9,26654
+246,Heat,Heat,Drama / Crimen,12.315,15-12-1995,8.2,10987
+247,The Silence of the Lambs,The Silence of the Lambs,Drama / Thriller,11.502,14-02-1991,8.6,17876
+248,The Sixth Sense,The Sixth Sense,Drama / Thriller,10.815,06-08-1999,8.3,13567
+249,The Green Mile,The Green Mile,Drama / Crimen,10.002,10-12-1999,8.7,24567
+250,The Truman Show,The Truman Show,Drama / Comedia,9.207,04-06-1998,8.0,14345
+251,American Beauty,American Beauty,Drama / Romance,8.402,15-09-1999,8.1,17654
+252,Life Is Beautiful,La vita è bella,Drama / Comedia,7.615,20-12-1997,8.8,19876
+253,The Big Lebowski,The Big Lebowski,Drama / Comedia,6.728,06-03-1998,8.5,17345
+254,The Shawshank Redemption,The Shawshank Redemption,Drama / Crimen,5.831,23-09-1994,9.0,28765
+255,Saving Private Ryan,Saving Private Ryan,Drama / Histórica,4.954,24-07-1998,8.6,17678
+256,Schindler's List,Schindler's List,Drama / Histórica,3.107,15-12-1993,8.8,15345
+257,Forrest Gump,Forrest Gump,Drama / Romance,2.268,06-07-1994,8.9,30555
+258,Braveheart,Braveheart,Drama / Histórica,1.954,24-05-1995,8.9,22765

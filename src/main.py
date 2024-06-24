@@ -1,7 +1,7 @@
-from flask import Flask, render_template, send_from_directory, request, url_for
+from flask import Flask, render_template, send_from_directory, jsonify, request, url_for
 import pandas as pd
 import os
-
+from collections import defaultdict
 
 app = Flask(__name__)
 
@@ -9,12 +9,14 @@ app = Flask(__name__)
 ruta_archivo = "C:/Users/LCDP/Desktop/CICLO-2024-01/Algorithmic-complexity/data/10movies.csv"
 data = pd.read_csv(ruta_archivo)
 
+user_preferences = defaultdict(int)
+
 # Definir una función de heurística para estimar la popularidad de una película en relación con otra
 def heuristica_popularidad(pelicula_referencia, pelicula_actual):
     return abs(pelicula_referencia['Popularity'] - pelicula_actual['Popularity'])
 
 # Implementar el algoritmo de búsqueda A*
-def buscar_películas_populares(pelicula_referencia, data, k=10):
+def buscar_películas_populares(pelicula_referencia, data, k=5):
     # Inicializar una lista de películas visitadas y una cola de prioridad para almacenar las películas a explorar
     visitados = set()
     cola_prioridad = []
@@ -59,8 +61,39 @@ def index():
     # Preparar los datos para pasar al template
     peliculas = [{"Name": pelicula['Name'], "Popularity": pelicula['Popularity']} for pelicula in resultados]
 
+    top_movies = data.sort_values(by='Popularity', ascending=False).head(10).to_dict(orient='records')
     # Renderizar el template con los resultados
-    return render_template('page/index.html', peliculas=peliculas, enumerate = enumerate)
+    return render_template('page/index.html', peliculas=top_movies, enumerate = enumerate)
+
+@app.route('/filter_movies', methods=['POST'])
+def filter_movies():
+
+    global user_preferences
+
+    genre = request.json['genre']
+
+    if genre:
+        user_preferences[genre] += 1
+        # Filtrar películas por el género seleccionado
+        # filtered_movies = data[data['Genre'] == genre].to_dict(orient='records')
+        filtered_movies = data[data['Genre'] == genre].sort_values(by='Popularity', ascending=False).to_dict(orient='records')
+    else:
+        # Si no se selecciona ningún género, devolver todas las películas
+        filtered_movies = data.sort_values(by='Popularity', ascending=False).to_dict(orient='records')
+
+    return jsonify(filtered_movies)
+
+@app.route('/recommendations')
+def recommendations():
+    global user_preferences
+
+    # Obtener los géneros más frecuentes elegidos por el usuario
+    top_genres = sorted(user_preferences.items(), key=lambda x: x[1], reverse=True)[:3]  # Obtener los 3 géneros más frecuentes
+
+    # Filtrar películas que pertenecen a los géneros más frecuentes
+    recommended_movies = data[data['Genre'].isin([genre for genre, count in top_genres])].head(10).to_dict(orient='records')
+
+    return render_template('page/recommendations.html', peliculas=recommended_movies, enumerate = enumerate)
 
 if __name__ == '__main__':
     app.run(debug=True)

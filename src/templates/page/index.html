@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
     <!-- Enlazar tu archivo CSS personalizado -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
 </head>
 
 
@@ -15,6 +16,29 @@
     <header>
         <h1>Lista de Películas</h1>
     </header>
+    <a href="{{ url_for('recommendations') }}" class="button">Ver Recomendados</a>
+    <!-- Formulario para filtrar por género -->
+    <form id="filterForm">
+        <label for="genre">Filtrar por género:</label>
+        <select name="genre" id="genre">
+            <option value="">Todos</option>
+            <option value="Animación / Comedia">Animación / Comedia</option>
+            <option value="Drama / Crimen">Drama / Crimen</option>
+            <option value="Histórica / Drama">Histórica / Drama</option>
+            <option value="Animación / Acción">Animación / Acción</option>
+            <option value="Animación / Aventura">Animación / Aventura</option>
+            <option value="Drama / Romance">Drama / Romance</option>
+            <option value="Animación / Familiar">Animación / Familiar</option>
+            <option value="Drama / Deportes">Drama / Deportes</option>
+            <option value="Drama / Histórica">Drama / Histórica</option>
+            <option value="Drama / Thriller">Drama / Thriller</option>
+            <option value="Drama / Fantasía">Drama / Fantasía</option>
+            <option value="Animación / Romance">Animación / Romance</option>
+            <option value="Drama / Comedia">Drama / Comedia</option>
+        </select>
+        <button type="submit">Filtrar</button>
+    </form>
+
     <table class="table">
         <thead>
         <tr>
@@ -34,6 +58,42 @@
         </tbody>
     </table>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    document.getElementById('filterForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita que se recargue la página al enviar el formulario
+
+        var genre = document.getElementById('genre').value; // Obtén el valor seleccionado del género
+
+        // Enviar solicitud AJAX a Flask para obtener películas filtradas por género
+        $.ajax({
+            url: '/filter_movies',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({ genre: genre }),
+            success: function(response) {
+                // Limpiar la tabla de películas actuales
+                var tableBody = document.querySelector('.table tbody');
+                tableBody.innerHTML = '';
+
+                // Llenar la tabla con las películas filtradas
+                response.forEach(function(pelicula, index) {
+                    var row = `<tr>
+                                    <td>${index + 1}</td>
+                                    <td>${pelicula.Name}</td>
+                                    <td>${pelicula.Popularity}</td>
+                                </tr>`;
+                    tableBody.innerHTML += row;
+                });
+            },
+            error: function(error) {
+                console.error('Error al filtrar películas:', error);
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
 
