@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas Recomendadas por DFS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <!-- Enlazar tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Películas Recomendadas por DFS</h1>
+        </header>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Popularidad</th>
+                    <th>Voto Promedio</th>
+                    <th>Nombre Original</th>
+                    <th>Género</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for pelicula in peliculas %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ pelicula.Name }}</td>
+                    <td>{{ pelicula.Popularity }}</td>
+                    <td>{{ pelicula.Vote_average }}</td>
+                    <td>{{ pelicula.Original_name }}</td>
+                    <td>{{ pelicula.Genre }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <a href="/" class="button">Volver a la Página Principal</a>
+    </div>
+</body>
+</html>
