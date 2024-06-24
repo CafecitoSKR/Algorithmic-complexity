@@ -59,7 +59,13 @@ def index():
     resultados = list(buscar_películas_populares(pelicula_referencia, data))
 
     # Preparar los datos para pasar al template
-    peliculas = [{"Name": pelicula['Name'], "Popularity": pelicula['Popularity']} for pelicula in resultados]
+    peliculas = [{
+        "Name": pelicula['Name'],
+        "Popularity": pelicula['Popularity'],
+        "Vote_average": pelicula['Vote_average'],  # Asegúrate de incluir estas columnas
+        "Original_name": pelicula['Original_name'],
+        "Genre": pelicula['Genre']
+    } for pelicula in resultados]
 
     top_movies = data.sort_values(by='Popularity', ascending=False).head(10).to_dict(orient='records')
     # Renderizar el template con los resultados

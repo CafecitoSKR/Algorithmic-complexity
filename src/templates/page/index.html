@@ -45,6 +45,9 @@
             <th>#</th>
             <th>Nombre</th>
             <th>Popularidad</th>
+            <th>Voto Promedio</th>
+            <th>Nombre Original</th>
+            <th>Género</th>
         </tr>
         </thead>
         <tbody>
@@ -53,6 +56,9 @@
             <td>{{ i }}</td>
             <td>{{ pelicula['Name'] }}</td>
             <td>{{ pelicula['Popularity'] }}</td>
+            <td>{{ pelicula['Vote_average'] }}</td>
+            <td>{{ pelicula['Original_name'] }}</td>
+            <td>{{ pelicula['Genre'] }}</td>
         </tr>
         {% endfor %}
         </tbody>
